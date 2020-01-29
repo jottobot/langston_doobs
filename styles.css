@@ -1,0 +1,25 @@
+body {
+  background-image: url(images/Langston\ Doobs\ Doobie\ Photo.JPG);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: scroll;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+}
+
+@media only screen and (max-width: 420px) {
+body {
+  background-image: url("images/Langston\ Doobs\ Doobie\ Photo_long.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: scroll;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+  /* overflow: scroll; */
+}
+
+}
