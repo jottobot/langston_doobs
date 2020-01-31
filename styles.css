@@ -10,16 +10,39 @@ body {
 }
 
 @media only screen and (max-width: 420px) {
-body {
-  background-image: url("images/Langston\ Doobs\ Doobie\ Photo_long.jpg");
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: scroll;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  background-size: 100% auto;
-  /* overflow: scroll; */
-}
-
+  body {
+    background-image: url("images/Langston\ Doobs\ Doobie\ Photo_long.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+    overflow: scroll;
+  }
+  .name {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 60px;
+    text-align: center;
+  }
+  .contact {
+    background-color: black; 
+    height: 100px; 
+    text-align: center; 
+    color: white;
+    padding: 20px;
+  }
+  .fa {
+    /* padding: 20px; */
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+  }
+ 
 }
