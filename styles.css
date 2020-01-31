@@ -1,4 +1,6 @@
-body {
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+
+html, body {
   background-image: url(images/Langston\ Doobs\ Doobie\ Photo.JPG);
   background-repeat: no-repeat;
   background-position: center top;
@@ -7,6 +9,97 @@ body {
   -moz-background-size: 100% auto;
   -o-background-size: 100% auto;
   background-size: 100% auto;
+}
+.name {
+  padding-top: 50px;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 4px;
+  font-size: 100px;
+}
+.name2 {
+  padding-top: 50px;
+  font-family: 'Sigmar One', cursive;
+  letter-spacing: 4px;
+  font-size: 100px;
+}
+.btn {
+	/* line-height: 50px; */
+	height: 40px;
+	text-align: center;
+	width: 200px;
+  cursor: pointer;
+}
+.btn-two {
+	transition: all 0.5s;
+  position: relative;	
+}
+.btn-two span {
+	z-index: 2;	
+	display: block;
+	position: absolute;
+	/* width: 100%; */
+  height: 100%;
+  text-align: center;
+  padding-left: 50px;
+  margin-bottom: 40px;
+  color: black;
+  font-family: 'Bebas Neue', cursive;
+}
+.btn-two::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border-radius: 4px;
+	/* border: 1px solid rgba(255,255,255,0.2); */
+  background-color: rgba(255,255,255,0.1);
+;}
+.btn-two::after {
+	content: '';
+  position: absolute;
+  border-radius: 4px;
+	top: 0;
+	left: 0;
+	width: 100%;
+  height: 100%;
+  color: white;
+  /* z-index: 1; */
+	transition: all 0.5s;
+  background-color: rgba(255,255,255,0.1);
+}
+.btn-two:hover::before {
+  transform: rotate(-45deg);
+  background-color: rgba(0, 0, 0, 0.438);
+}
+.btn-two:hover::after {
+  transform: rotate(45deg);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.438);
+}
+.btn-two span:hover {
+  color: white;
+}
+.contact {
+  margin-top: 800px;
+  background-color: black; 
+  height: 90px; 
+  text-align: center; 
+  color: white;
+  padding: 20px;
+}
+.fa {
+  /* padding: 20px; */
+  font-size: 40px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
 }
 
 @media only screen and (max-width: 420px) {
@@ -22,10 +115,65 @@ body {
     overflow: scroll;
   }
   .name {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+    font-size: 80px;
+    text-align: center;
+  }
+  .name2 {
+    padding-top: 50px;
+    font-family: 'Sigmar One', cursive;
     letter-spacing: 2px;
     font-size: 60px;
     text-align: center;
+  } 
+  .btn {
+    /* line-height: 50px; */
+    height: 50px;
+    text-align: center;
+    width: 180px;
+    cursor: pointer;
+  }
+  .btn-two {
+    color: white;
+    transition: all 0.5s;
+    position: relative;
+  }
+  .btn-two span {
+    padding-left: 50px;
+  }
+  .btn-two::before {
+    content: '';
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.1);
+  }
+  .btn-two::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.1);
+  }
+  .btn-two:hover::before {
+    transform: rotate(-45deg);
+    background-color: rgba(255,255,255,0);
+  }
+  .btn-two:hover::after {
+    transform: rotate(45deg);
+    background-color: rgba(255,255,255,0);
   }
   .contact {
     background-color: black; 
