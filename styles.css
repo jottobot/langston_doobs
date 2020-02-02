@@ -1,7 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
 
 html, body {
-  background-image: url("images/Langston\ Doobs\ Doobie\ Photo_desktop.jpg");
+  background-image: url("images/Langston\ Doobs\ Doobie\ Photo_png.png");
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: scroll;
@@ -104,7 +104,7 @@ html, body {
 }
 /* CONTACT */
 .contact {
-  margin-top: 1200px;
+  margin-top: 930px;
   background-color: black; 
   height: 90px; 
   text-align: center; 
