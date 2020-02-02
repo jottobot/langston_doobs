@@ -12,22 +12,24 @@ html, body {
 }
 .name {
   padding-top: 50px;
-  font-family: 'Bangers', cursive;
+  font-family: 'Bangers';
   letter-spacing: 4px;
   font-size: 100px;
 }
 .name2 {
   padding-top: 50px;
-  font-family: 'Sigmar One', cursive;
+  font-family: 'Sigmar One';
   letter-spacing: 4px;
   font-size: 100px;
 }
+/* BUTTONS */
 .btn {
-	/* line-height: 50px; */
-	height: 40px;
+	height: 45px;
 	text-align: center;
-	width: 200px;
+	width: 180px;
   cursor: pointer;
+  font-size: 25px;
+  letter-spacing: 1px;
 }
 .btn-two {
 	transition: all 0.5s;
@@ -41,9 +43,25 @@ html, body {
   height: 100%;
   text-align: center;
   padding-left: 50px;
+  padding-top: 1px;
   margin-bottom: 40px;
   color: black;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue';
+}
+.emailbutton  {
+  z-index: 2;	
+	display: block;
+	position: absolute;
+  height: 100%;
+  margin-bottom: 40px;
+  color: black;
+  margin-left: -25px;
+  margin-top: -1px;
+  font-family: 'Bebas Neue';
+}
+.emailbutton:hover {
+  text-decoration: none;
+  color:white;
 }
 .btn-two::before {
 	content: '';
@@ -83,8 +101,9 @@ html, body {
 .btn-two span:hover {
   color: white;
 }
+/* CONTACT */
 .contact {
-  margin-top: 800px;
+  margin-top: 1300px;
   background-color: black; 
   height: 90px; 
   text-align: center; 
@@ -92,7 +111,6 @@ html, body {
   padding: 20px;
 }
 .fa {
-  /* padding: 20px; */
   font-size: 40px;
   width: 50px;
   text-align: center;
@@ -100,6 +118,11 @@ html, body {
   margin-left: 5px;
   margin-right: 5px;
   color: white;
+}
+.fa:hover {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
 }
 
 @media only screen and (max-width: 420px) {
@@ -115,32 +138,30 @@ html, body {
     overflow: scroll;
   }
   .name {
-    font-family: 'Bangers', cursive;
+    font-family: 'Bangers';
     letter-spacing: 2px;
     font-size: 80px;
     text-align: center;
   }
   .name2 {
     padding-top: 50px;
-    font-family: 'Sigmar One', cursive;
+    font-family: 'Sigmar One';
     letter-spacing: 2px;
     font-size: 60px;
     text-align: center;
   } 
+  /* BUTTONS */
   .btn {
-    /* line-height: 50px; */
-    height: 50px;
-    text-align: center;
-    width: 180px;
+    height: 40px;
+    width: 150px;
     cursor: pointer;
   }
   .btn-two {
-    color: white;
-    transition: all 0.5s;
-    position: relative;
+    margin-bottom: 40px;
   }
   .btn-two span {
-    padding-left: 50px;
+    margin-left: -12px;
+    margin-top: -1px;
   }
   .btn-two::before {
     content: '';
@@ -175,12 +196,17 @@ html, body {
     transform: rotate(45deg);
     background-color: rgba(255,255,255,0);
   }
+  .emailbutton  {
+    margin-left: -35px;
+  }
+  /* CONTACT LINKS */
   .contact {
     background-color: black; 
-    height: 100px; 
+    height: 80px; 
     text-align: center; 
     color: white;
     padding: 20px;
+    margin-top: 330px;
   }
   .fa {
     /* padding: 20px; */
