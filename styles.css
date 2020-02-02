@@ -1,7 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
 
 html, body {
-  background-image: url(images/Langston\ Doobs\ Doobie\ Photo.jpg);
+  background-image: url("images/Langston\ Doobs\ Doobie\ Photo.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: scroll;
@@ -126,7 +126,7 @@ html, body {
   font-size: 30px;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (min-width: 360px) and (max-width: 411px) {
   body {
     background-image: url("images/Langston\ Doobs\ Doobie\ Photo_long.jpg");
     background-repeat: no-repeat;
@@ -143,7 +143,7 @@ html, body {
     letter-spacing: 2px;
     font-size: 80px;
     text-align: center;
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
     padding-top: 30px;
   }
   .name2 {
@@ -164,7 +164,6 @@ html, body {
   }
   .btn-two span {
     margin-left: -12px;
-    /* margin-top: -1px; */
   }
   .btn-two::before {
     content: '';
@@ -215,7 +214,6 @@ html, body {
     margin-top: 500px;
   }
   .fa {
-    /* padding: 20px; */
     font-size: 40px;
     width: 50px;
     text-align: center;
@@ -224,5 +222,104 @@ html, body {
     margin-right: 5px;
     color: white;
   }
- 
+}
+
+@media only screen and (min-width: 412px) and (max-width: 480px) {
+
+  body {
+    background-image: url("images/Langston\ Doobs\ Doobie\ Photo_long.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+    overflow: scroll;
+  }
+  .name {
+    font-family: 'Bangers';
+    letter-spacing: 2px;
+    font-size: 80px;
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 30px;
+  }
+  .name2 {
+    padding-top: 50px;
+    font-family: 'Sigmar One';
+    letter-spacing: 2px;
+    font-size: 60px;
+    text-align: center;
+  } 
+  /* BUTTONS */
+  .btn {
+    height: 50px;
+    width: 160px;
+    cursor: pointer;
+  }
+  .btn-two {
+    margin-bottom: 40px;
+  }
+  .btn-two span {
+    margin-left: -12px;
+  }
+  .btn-two::before {
+    content: '';
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.1);
+  }
+  .btn-two::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.1);
+  }
+  .btn-two:hover::before {
+    transform: rotate(-45deg);
+    background-color: rgba(255,255,255,0);
+  }
+  .btn-two:hover::after {
+    transform: rotate(45deg);
+    background-color: rgba(255,255,255,0);
+  }
+  .emailbutton  {
+    height: 50px;
+    width: 160px;
+    cursor: pointer;
+    margin-left: -50px;
+  }
+  /* CONTACT LINKS */
+  .contact {
+    background-color: black; 
+    height: 80px; 
+    text-align: center; 
+    color: white;
+    padding: 20px;
+    margin-top: 600px;
+  }
+  .fa {
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+  }
+
 }
