@@ -109,7 +109,7 @@ a:hover {
 .contact {
   margin-top: 930px;
   background-color: black; 
-  height: 90px; 
+  height: 110px; 
   text-align: center; 
   color: white;
   padding: 20px;
@@ -122,11 +122,23 @@ a:hover {
   margin-left: 5px;
   margin-right: 5px;
   color: white;
+  padding-bottom: 20px;
 }
 .fa:hover {
   text-decoration: none;
   color: white;
   font-size: 30px;
+}
+p {
+  color: white;
+  font-size: 10px;
+}
+.footerlink {
+  color: white;
+  font-size: 10px;
+}
+.footerlink:hover {
+  text-decoration: underline;
 }
 
 @media only screen and (min-width: 360px) and (max-width: 411px) {
