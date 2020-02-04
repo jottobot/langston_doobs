@@ -1,0 +1,138 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+
+html, body {
+  background-color: black;
+}
+.name {
+  padding-top: 30px;
+  font-family: 'Bangers';
+  letter-spacing: 4px;
+  font-size: 120px;
+  padding-bottom: 50px;
+}
+/* ABOUT PAGE */
+.bio {
+  color: white;
+}
+.biotext {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 180%;
+  text-align: justify;
+}
+.biotext::first-letter {
+  font-size: 80px;
+  color: #8A2BE2;
+  padding-right: 2px;
+}
+/* PHOTOS */
+.photos {
+  width: 500px;
+  height: auto;
+  padding: 40px;
+}
+/* CONTACT */
+.contact {
+  margin-top: 930px;
+  background-color: black; 
+  height: 90px; 
+  text-align: center; 
+  color: white;
+  padding: 20px;
+}
+.fa {
+  font-size: 40px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+}
+.fa:hover {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 411px) {
+  .name {
+    font-family: 'Bangers';
+    letter-spacing: 2px;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  .photos {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+  }
+  .biotext {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 180%;
+    text-align: justify;
+    padding: 20px;
+  }
+  .biotext::first-letter {
+    font-size: 80px;
+    color: #8A2BE2;
+    padding-right: 2px;
+  }
+  /* CONTACT LINKS */
+  .contact {
+    background-color: white; 
+    height: 60px; 
+    text-align: center; 
+    color: black;
+    padding: 10px;
+    margin-top: 80px;
+  }
+  .fa {
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+  }
+}
+
+@media only screen and (min-width: 412px) and (max-width: 480px) {
+  .name {
+    font-family: 'Bangers';
+    letter-spacing: 2px;
+    font-size: 80px;
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 30px;
+  }
+  .photos {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+  }
+  .biotext {
+    padding: 20px;
+  }
+  .contact {
+    background-color: white; 
+    height: 60px; 
+    text-align: center; 
+    color: black;
+    padding: 10px;
+    margin-top: 80px;
+  }
+  .fa {
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+  }
+
+}
