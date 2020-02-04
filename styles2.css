@@ -11,6 +11,11 @@ html, body {
   padding-bottom: 50px;
 }
 /* ABOUT PAGE */
+.logo {
+  float: left; 
+  width: 400px; 
+  padding-right: 10px
+}
 .bio {
   color: white;
 }
@@ -23,7 +28,7 @@ html, body {
 .biotext::first-letter {
   font-size: 80px;
   color: #8A2BE2;
-  padding-right: 2px;
+  padding-right: 5px;
 }
 /* PHOTOS */
 .photos {
@@ -68,6 +73,9 @@ html, body {
     height: auto;
     padding: 20px;
   }
+  .logo {
+    width: 150px;
+  }
   .biotext {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
@@ -106,13 +114,16 @@ html, body {
     letter-spacing: 2px;
     font-size: 80px;
     text-align: center;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
     padding-top: 30px;
   }
   .photos {
     width: 300px;
     height: auto;
     padding: 20px;
+  }
+  .logo {
+    width: 150px;
   }
   .biotext {
     padding: 20px;

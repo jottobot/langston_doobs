@@ -221,7 +221,7 @@ p {
   /* CONTACT LINKS */
   .contact {
     background-color: black; 
-    height: 80px; 
+    height: 110px; 
     text-align: center; 
     color: white;
     padding: 20px;
@@ -236,10 +236,16 @@ p {
     margin-right: 5px;
     color: white;
   }
+  .footerlink {
+    color: white;
+    font-size: 10px;
+  }
+  .footerlink:hover {
+    text-decoration: underline;
+  }
 }
 
 @media only screen and (min-width: 412px) and (max-width: 480px) {
-
   body {
     background-image: url("images/Langston\ Doobs\ Doobie\ Photo_long.jpg");
     background-repeat: no-repeat;
@@ -320,7 +326,7 @@ p {
   /* CONTACT LINKS */
   .contact {
     background-color: black; 
-    height: 80px; 
+    height: 110px; 
     text-align: center; 
     color: white;
     padding: 20px;
@@ -334,6 +340,13 @@ p {
     margin-left: 5px;
     margin-right: 5px;
     color: white;
+  }
+  .footerlink {
+    color: white;
+    font-size: 10px;
+  }
+  .footerlink:hover {
+    text-decoration: underline;
   }
 
 }
