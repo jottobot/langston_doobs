@@ -33,8 +33,8 @@ html, body {
 }
 /* CONTACT */
 .contact {
-  margin-top: 930px;
-  background-color: black; 
+  margin-top: 200px;
+  background-color: white; 
   height: 90px; 
   text-align: center; 
   color: white;
@@ -47,11 +47,11 @@ html, body {
   text-decoration: none;
   margin-left: 5px;
   margin-right: 5px;
-  color: white;
+  color: black;
 }
 .fa:hover {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 30px;
 }
 
