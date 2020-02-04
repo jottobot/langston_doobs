@@ -13,7 +13,7 @@ html, body {
 /* ABOUT PAGE */
 .logo {
   float: left; 
-  width: 400px; 
+  width: 250px; 
   padding-right: 10px
 }
 .bio {
@@ -27,7 +27,7 @@ html, body {
 }
 .biotext::first-letter {
   font-size: 80px;
-  color: #8A2BE2;
+  color: lightblue;
   padding-right: 5px;
 }
 /* PHOTOS */
